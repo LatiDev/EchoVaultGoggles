@@ -3,12 +3,11 @@ using Dalamud.Interface.Windowing;
 using Dalamud.IoC;
 using Dalamud.Plugin;
 using Dalamud.Plugin.Services;
-using SamplePlugin.Displays;
-using SamplePlugin.Services;
-using SamplePlugin.Windows;
-using System.IO;
+using EchoVaultGoggles.Displays;
+using EchoVaultGoggles.Services;
+using EchoVaultGoggles.Windows;
 
-namespace SamplePlugin;
+namespace EchoVaultGoggles;
 
 public sealed class Plugin : IDalamudPlugin
 {
@@ -27,7 +26,7 @@ public sealed class Plugin : IDalamudPlugin
 
     public static Configuration Configuration { get; set; } = null!;
 
-    public readonly WindowSystem WindowSystem = new("SamplePlugin");
+    public readonly WindowSystem WindowSystem = new("EchoVaultGoggles");
     private ConfigWindow ConfigWindow { get; init; }
 
     public Plugin()

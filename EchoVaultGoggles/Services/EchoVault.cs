@@ -8,7 +8,7 @@ using System.Threading;
 using System.Threading.Tasks;
 
 
-namespace SamplePlugin.Services;
+namespace EchoVaultGoggles.Services;
 
 public sealed class EchoVault : IDisposable
 {

@@ -1,13 +1,13 @@
 using Dalamud.Game.Gui.NamePlate;
 using Dalamud.Game.Text.SeStringHandling;
-using SamplePlugin.Services;
+using EchoVaultGoggles.Services;
 using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace SamplePlugin.Displays;
+namespace EchoVaultGoggles.Displays;
 
 public sealed class TrackingDisplay : IDisposable
 {
