@@ -40,6 +40,11 @@ public sealed class TrackingDisplay : IDisposable
         {
             foreach (var handler in handlers)
             {
+                if (string.IsNullOrEmpty(Plugin.Configuration.apiKey))
+                {
+                    continue;
+                }
+                
                 if (handler.PlayerCharacter is null)
                 {
                     continue;
