@@ -1,7 +1,7 @@
 {
   "Author": "LatiDev",
   "Name": "EchoVaultGoggles",
-  "Punchline": "See who has an EchoVault profile before you say hi.",
+  "Punchline": "See who has an EchoVault profile",
   "Description": "Marks nearby players' nameplates with a star if they have an EchoVault profile: red for a visible profile, blue for a hidden one. Requires an EchoVault API key, set in the plugin's configuration window",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/LatiDev/EchoVaultGoggles",
